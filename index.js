@@ -4,6 +4,7 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase()
   })
 }
+<<<<<<< HEAD
  function nameToAttributes(array) {
    return array.map(function(driver) {
      const driverFirstName = driver.split(" ")[0]
@@ -18,3 +19,7 @@ function attributesToPhrase(array) {
     return `${driver.name} is from ${driver.hometown}`
   })
 }
+=======
+
+function
+>>>>>>> 3a7d0ea8e8824da7f935f4475797767aa30f157f
